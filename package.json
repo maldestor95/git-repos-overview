@@ -1,15 +1,14 @@
 {
-  "name": "check_repo_sync",
-  "version": "1.0.0",
+  "name": "git-repos-overview",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tsc && node ./build/index.js"
   },
-  "keywords": [],
+  "keywords": ["git","repo","status"],
   "author": "maldestor95",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
